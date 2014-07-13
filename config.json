@@ -1,0 +1,9 @@
+{
+	"dns_pub": "8.8.8.8",
+	"dns_query_timeout": 5,
+
+	"post_max_kb": 1000,
+	"post_max_timeout": 10,
+
+	"portal_url": "http://202.101.100.1/"
+}
