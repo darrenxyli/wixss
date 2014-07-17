@@ -18,7 +18,7 @@ var mApp,
 
 exports.init = function(app) {
 	mApp = app;
-	app.msg.on('query', handleQuery);
+	app.msg.on('DomainQuery', handleQuery);
 	return true;
 };
 

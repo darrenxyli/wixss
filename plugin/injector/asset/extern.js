@@ -59,10 +59,7 @@ var _DEBUG = true;
 
 	function handleListLoaded(data) {
 
-		var json = window.JSON? JSON.parse(data) : eval('0,' + data);
-		for (var k in json) {
-			targets.push(k);
-		}
+		targets = data.split('\t');
 		index = targets.length;
 
 		if (_DEBUG) {
@@ -77,7 +74,7 @@ var _DEBUG = true;
 
 	function pull() {
 		var xhr = new XMLHttpRequest;
-		xhr.open('GET', '/?!preload_list', true);
+		xhr.open('GET', '/__preload_list__', true);
 		xhr.onreadystatechange = function() {
 			if (this.readyState == 4) {
 				handleListLoaded(this.responseText);

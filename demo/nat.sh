@@ -1,5 +1,5 @@
-in_dev="eth0"
-out_dev=""
+in_dev="wlan0"
+out_dev="eth0"
 
 #
 # return ip of device
@@ -16,7 +16,7 @@ if [ ! $in_ip ]; then
 	echo "$in_dev has no ip address"
 	exit 0
 fi
-echo "$in_ip @ $in_dev"
+echo "IN: $in_ip @ $in_dev"
 
 
 echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -41,7 +41,7 @@ else
 		exit 0
 	fi
 
-	echo "$out_ip @ $out_dev"
+	echo "OUT: $out_ip @ $out_dev"
 
 	iptables -t nat -A POSTROUTING -o $out_dev -j MASQUERADE
 fi

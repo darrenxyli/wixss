@@ -64,7 +64,7 @@ function handleWebResBegin(e) {
 			mApp.util.warn('[WEB]', e.fullUrl, 'GOTO'.red, newUrl);
 
 			var newSite = mApp.util.getSiteFromUrl(newUrl);
-			e.clientReq.headers['host'] = newSite;
+			e.clientReq.headers.host = newSite;
 			e.proxy();
 			return false;
 		}

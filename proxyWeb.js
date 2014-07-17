@@ -4,12 +4,9 @@ var http = require('http'),
 	https = require('https'),
 	zlib = require('zlib');
 
-var POST_MAX_KB = 100 * 1024,
-	POST_TIMEOUT = 10 * 1000;
-
 var mApp,
-	mPostMaxBytes,
-	mPostTimeout;
+	mPostMaxBytes = 100 * 1024,
+	mPostTimeout = 10 * 1000;
 
 
 function WebProxy() {}
@@ -194,7 +191,7 @@ function onHttpRequest(req, res) {
 		bytes += chunk.length;
 
 		// 超过最大接收数据
-		if (bytes > POST_MAX_KB) {
+		if (bytes > mPostMaxBytes) {
 			e.error('recv bytes exceed');
 		}
 	});
@@ -224,11 +221,11 @@ exports.init = function(app) {
 
 	// 最大提交数据
 	if (mApp.config['post_max_kb']) {
-		POST_MAX_KB = mApp.config['post_max_kb'] * 1024;
+		mPostMaxBytes = mApp.config['post_max_kb'] * 1024;
 	}
 	// 最长提交时间
 	if (mApp.config['post_max_timeout']) {
-		POST_TIMEOUT = mApp.config['post_max_timeout'] * 1000;
+		mPostTimeout = mApp.config['post_max_timeout'] * 1000;
 	}
 
     var svrHttp = http.createServer(onHttpRequest);

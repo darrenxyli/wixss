@@ -98,24 +98,13 @@ exports.formatUrl = function(url) {
  *   * 匹配若干字符
  *   ? 匹配单个字符
  */
-exports.wild2reg = function(str) {
-
-	return new RegExp(str
-		.replace(/\./g, '\\.')
-		.replace(/\+/g, '\\+')
-		.replace(/\|/g, '\\|')
-		.replace(/\$/g, '\\$')
-		.replace(/\^/g, '\\^')
-		.replace(/\[/g, '\\[')
-		.replace(/\]/g, '\\]')
-		.replace(/\(/g, '\\(')
-		.replace(/\)/g, '\\)')
-		.replace(/\(/g, '\\(')
-
-		.replace(/\*+/g, '.*')
-		.replace(/\?/g, '.')
-	, 'i');
-}
+exports.wild2reg = function(exp) {
+	exp = exp
+		.replace(/([\\\+\|\{\}\[\]\(\)\^\$\.#])/g, '\\$1')
+		.replace(/\*/g, '.*')
+		.replace(/\?/g, '.');
+	return new RegExp('^' + exp + '$');
+};
 
 
 
