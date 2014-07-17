@@ -1,7 +1,10 @@
 /**
- * long cache sniffer
- *   author: EtherDream
- *   update: 2014/3/20
+ * HTTP 长缓存嗅探器
+ *
+ * phantomjs sniffer.js option
+ *    -u 测试单个 URL
+ *    -i 测试列表
+ *    -o 输出文件
  */
 'use strict';
 
@@ -28,11 +31,10 @@ var MIN_STABLE_DAY = 2,
 	webpage = require('webpage'),
 	fs = require('fs'),
 
-	site_res = {},
-	used = {},
-	totalNum = 0,
-	MIME = {
-		'text/html': 1,
+	mSiteResMap = {},
+	mAnalyzedSet = {},
+	mTotalNum = 0,
+	JS_MIME = {
 		'application/x-javascript': 1,
 		'text/javascript': 1
 	};
@@ -75,8 +77,8 @@ function saveList(path) {
 	do {
 		loop = false;
 
-		for(var k in site_res) {
-			var arr = site_res[k];
+		for(var k in mSiteResMap) {
+			var arr = mSiteResMap[k];
 			var res = arr.pop();
 			if (res) {
 				var url = res.url;
@@ -114,10 +116,16 @@ function go_page(result, url, ua, cb) {
 	page.onError = function() {};
 
 	page.onResourceReceived = function(response) {
-		if (used[response.url]) {
+		// 只分析 http 资源
+		var resUrl = response.url;
+		if (!/^http/i.test(resUrl)) {
 			return;
 		}
-		used[response.url] = true;
+
+		if (mAnalyzedSet[resUrl]) {
+			return;
+		}
+		mAnalyzedSet[resUrl] = true;
 
 
 		var last, now, exp;
@@ -136,7 +144,7 @@ function go_page(result, url, ua, cb) {
 				last = +new Date(header.value);
 				break;
 			case 'content-type':
-				if ( !MIME[header.value.toLowerCase()] ) {
+				if ( ! JS_MIME[header.value.toLowerCase()] ) {
 					return false;
 				}
 				break;
@@ -155,7 +163,7 @@ function go_page(result, url, ua, cb) {
 		var dayCached = ms2day(exp - now);
 
 		//
-		// 放弃缓存时间短或者经常修改的资源
+		// 放弃缓存时间短 或 经常修改的资源
 		//
 		if (dayStable < MIN_STABLE_DAY || dayCached < MIN_CACHE_DAY) {
 			return;
@@ -169,23 +177,24 @@ function go_page(result, url, ua, cb) {
 		});
 	};
 
+	// 访问测试页
+	function done() {
+		cb();
+		page.close();
+	}
+
 	page.open(url, function() {
 		clearTimeout(tid);
 		done();
 	});
 
 	var tid = setTimeout(done, PAGE_TIMEOUT);
-
-	function done() {
-		cb();
-		page.close();
-	}
 }
 
 
 function go_site(url, cb) {
 
-	var result = site_res[url] || (site_res[url] = []);
+	var result = mSiteResMap[url] || (mSiteResMap[url] = []);
 	var n = 0;
 
 	function onPageDone() {
@@ -204,7 +213,7 @@ function go_site(url, cb) {
 			console.log('   no result');
 		}
 		else {
-			totalNum += result.length;
+			mTotalNum += result.length;
 			result.forEach(function(res) {
 				console.log('   -' + res.stable + '\t/ +' + res.cache + '\t\t' + res.url);
 			});
@@ -304,7 +313,7 @@ function main() {
 				saveList(output);
 			}
 			var sec = Math.round( (Date.now() - time) / 1000 );
-			console.log('DONE! Found ' + totalNum + ' results in ' + sec + ' sec');
+			console.log('DONE! Found ' + mTotalNum + ' results in ' + sec + ' sec');
 			exit();
 		}
 

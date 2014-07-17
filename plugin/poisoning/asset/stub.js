@@ -8,15 +8,6 @@ var _DEBUG = true;
 
 (function(runInEval, URL_RAW) {
 
-	// 预加载，不执行
-	var poisoning = Math.sin['poisoning'];
-	if (poisoning) {
-		if (poisoning['map'][URL_RAW]) {
-			poisoning['callback'](URL_RAW);
-			return;
-		}
-	}
-
 	var SRC_RAW = URL_RAW + '?1';
 
 	// TROJAN

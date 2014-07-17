@@ -1,299 +1,287 @@
 {
-    "http://s0.hao123img.com/res/js/track.js?390421": {
-        "etag": "\"4294596640\""
-    },
+    "http://s0.m.hao123img.com/static/webapp/widget/index/gexing/gexing-aio_045aaa7.js": {},
+    "http://a.tbcdn.cn/s/fdc/??spm_wap.js,spmact_wap.js?v=140611": {},
     "http://a.tbcdn.cn/s/fdc/lsproxy.js?v=20140709": {},
-    "http://a.tbcdn.cn/mw/base/libs/zepto/1.0.0/zepto.js": {},
     "http://bc.qunar.com/js/ga.min.js": {},
     "http://s.xnimg.cn/a58518/n/apps/guide/js/combine/guide-step1-all-min.js": {},
     "http://m.baidu.com/static/ala/ui/stock/stock.js": {
         "etag": "\"1636426541\""
     },
-    "http://tb1.bdstatic.com/tb/static-props/component/guide/guide.js": {},
-    "http://s1.map.bdimg.com/mobile/simple/static/core/pkg/core-js_1dc59dc.js": {
-        "etag": "\"1057518898\""
+    "http://tb1.bdstatic.com/??tb/static-common/lib/tb_lib_ee59e11.js,tb/static-common/ui/common_logic_v2_d482932a.js,/tb/_/ban_4ce308b.js": {},
+    "http://map.baidu.com/mobile/simple/static/common/pkg/api_1395676.js": {
+        "etag": "\"2970614356\""
     },
-    "http://img.baidu.com/hunter/zhidao.js?cdnversion=-16268": {
-        "etag": "\"587955737\""
+    "http://wapiknow.bdimg.com/static/common/widget/js/util/cookie/cookie_8fca0ef.js": {
+        "etag": "\"60344736\""
     },
-    "http://baike.bdimg.com/static/common/ui/redEnv/redEnv_42a1ca75.js": {
-        "etag": "\"56183341\""
+    "http://baike.bdimg.com/static/common/ui/suggest/suggest_9e77bc0e.js": {
+        "etag": "\"51175021\""
     },
     "http://static.wenku.bdimg.com/static/common/pkg/pkg_index_a92c4d24.js": {},
-    "http://m.baidu.com/static/news/webapp/webappandroid/js/webappandroid-aio_4bbc508.js": {
-        "etag": "\"832062977\""
+    "http://m.baidu.com/static/news/webapp/gmu/gmu-aio_9181e24.js": {
+        "etag": "\"1833686765\""
     },
-    "http://m.baidu.com/static/as/res2exe/js/res2exe_1.0.4.min.js": {
-        "etag": "\"1633475117\""
+    "http://mu3.bdstatic.com/static/j/evYZUfJG.js": {
+        "etag": "\"1875398362\""
     },
-    "http://vs9.bdstatic.com/static/video/webapp/js/index_60ef5d9.js": {
-        "etag": "\"2179834181\""
+    "http://vs9.bdstatic.com/static/video/webapp/js/common_63f94c1.js": {
+        "etag": "\"3253205903\""
     },
     "http://s2.qhimg.com/!7e599025/360seie6.js": {
         "etag": "\"539ec6cd-989\""
     },
     "http://news.sohu.com/upload/itoolbar/itoolbar.index.201403191209.js": {},
     "http://news.sohu.com/upload/itoolbar/itoolbar.cms.201403191209.js": {},
-    "http://y0.ifengimg.com/1d124ac5e89463af/2014/0529/sparta.js": {},
+    "http://click.wrating.com/c3.js": {},
     "http://mopimg.cn/dc/tj.js": {
         "etag": "\"521f0b32-ced\""
     },
     "http://static.tianyaui.com/global/ty/TY.js": {},
-    "http://static.tianyaui.com/global/ty/core/interface.js?_v=20141621": {},
-    "http://js.tudouui.com/v3/dist/js/lib_3.js": {},
-    "http://img1.126.net/channel6/html/news_m5.html": {},
-    "http://mimg.127.net/p/bjs/release/bjs-1.0.40.js": {},
-    "http://reg.163.com/js2/easyTools/tools.js?1405518590429": {},
-    "http://reg.163.com/js/passport.js": {},
+    "http://static.tianyaui.com/global/ty/core/interface.js?_v=20141714": {},
+    "http://js.tudouui.com/v3/dist/js/g_72.js": {},
+    "http://js.aq.qq.com/js/aq_common.js": {},
+    "http://img2.126.net/ntesrich/auto/indexU/dlbox-index-v1.0.6-140704.js": {},
+    "http://www.gstatic.com/bg/cHxtoJNkw5HlJ7Ad_3ttzarKVABescbRKxOPv4Byu1w.js": {},
+    "http://pimg1.126.net/caipiao/js2/game/game.js?v=207297": {},
     "http://img1.126.net/channel7/temp/duilian_130628.js": {},
-    "http://pimg1.126.net/caipiao/js2/liveCheck.js?206213": {},
-    "http://img2.126.net/ntesrich/2014/0711/Tfbox-lady2-140711-lady.js": {},
-    "http://img1.126.net/channel6/html/war_col3.html": {},
-    "http://img1.126.net/channel6/html/mobile_col4.html": {},
-    "http://image.bitautoimg.com/dealer/union/script/ads.js": {},
-    "http://img1.126.net/channel7/js/duilian_2011n.js": {},
-    "http://yuedu.bst2.126.net/assets/js/tplforindex.js?20140716214621": {},
+    "http://yuedu.bst2.126.net/assets/js/tplforindex.js?20140717142621": {},
     "http://b.bst.126.net/pub/newIndex/bloghome/m-121.js?v=002": {},
     "http://creatim.allyes.com.cn/td/delay.min.js": {},
     "http://s0.meituan.net/vendor/js/ag-min.v14b87218.js": {},
-    "http://js.t.sinajs.cn/open/api/js/widget/hoverCard/hoverCard.js?version=20140327": {},
-    "http://a.tbcdn.cn/s/fdc/??spm_wap.js,spmact_wap.js?v=140611": {},
-    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/search.js": {},
+    "http://s0.m.hao123img.com/static/common/widget/lib/aio/index_a6d264f.js": {},
+    "http://a.tbcdn.cn/s/fdc/??spm.js,spmact.js?v=140619": {},
+    "http://a.tbcdn.cn/mw/base/libs/zepto/1.0.0/zepto.js": {},
     "http://bmrg.qunar.com/js/bmrg.js": {},
-    "http://s.xnimg.cn/a36267/js/register/register-xn6207-v6.js": {},
-    "http://tb1.bdstatic.com/tb/_/magic_props_b265490.js": {},
-    "http://webmap0.map.bdimg.com/newmap/static/common/pkg/init-pkg_0a6e511.js": {
-        "etag": "\"2032696061\""
+    "http://s.xnimg.cn/a65317/n/apps/login/login-v6.js": {},
+    "http://tb1.bdstatic.com/tb/static-props/component/guide/guide.js": {},
+    "http://s1.map.bdimg.com/mobile/simple/static/common/pkg/common_sync_js_0_4e1f0e3.js": {
+        "etag": "\"2978972312\""
     },
-    "http://wapiknow.bdimg.com/static/common/widget/js/util/cookie/cookie_8fca0ef.js": {
-        "etag": "\"60344736\""
+    "http://cdn.iknow.bdimg.com/static/home/pkg/module_668681b.js": {
+        "etag": "\"863586732\""
     },
-    "http://baike.bdimg.com/static/common/pkg/framework_f30a9566.js": {
-        "etag": "\"2903070497\""
+    "http://baike.bdimg.com/static/common/ui/redEnv/redEnv_42a1ca75.js": {
+        "etag": "\"56183341\""
     },
     "http://static.wenku.bdimg.com/static/common/pkg/pkg_comm_79332612.js": {},
-    "http://m.baidu.com/static/news/webapp/gmu/gmu-aio_9181e24.js": {
-        "etag": "\"1833686765\""
+    "http://m.baidu.com/static/news/webapp/webappandroid/js/webappandroid-aio_4bbc508.js": {
+        "etag": "\"832062977\""
     },
-    "http://img.baidu.com/hunter/musicmonkey.min.js": {
-        "etag": "\"1340621778\""
+    "http://mu4.bdstatic.com/static/j/JPPfiJ0T.js": {
+        "etag": "\"2949140318\""
     },
-    "http://vs9.bdstatic.com/static/video/webapp/input_c3b05f8.js": {
-        "etag": "\"569295435\""
+    "http://list.video.baidu.com/pc_static/open/suggestion/sug-quick-search-min.js?v=195220": {
+        "etag": "\"2825416371\""
     },
     "http://s0.qhimg.com/static/b88d72f0c47ca682.js": {
         "etag": "\"534e487d-996\""
     },
     "http://js.sohu.com/pv/spv1209061800.js": {},
     "http://news.sohu.com/upload/itoolbar/itoolbar.cms.loader.201403191209.js": {},
-    "http://y3.ifengimg.com/7a31b2571afb1f9a/2014/0516/idemin_noif.js": {},
+    "http://y1.ifengimg.com/p/login/20140312/index_main.js": {},
     "http://mopimg.cn/tj/dcq.js": {
         "etag": "\"4fd94c57-1615\""
     },
     "http://static.tianyaui.com/global/ty/stat/stat_20080313.js": {},
     "http://static.tianyaui.com/qy/adsame/ads.js": {},
-    "http://js.tudouui.com/v3/dist/js/m_5.js": {},
-    "http://img1.126.net/channel6/html/news_col6.html": {},
-    "http://reg.163.com/js2/login.js?201405071000": {},
-    "http://pimg1.126.net/caipiao/js2/jquery-1.4.2.js?v=206213": {},
+    "http://js.tudouui.com/v3/dist/js/lib_3.js": {},
     "http://img2.126.net/ntesrich/2013/1210/adControl-indexx-v1.0.2-131210.js": {},
-    "http://yuedu.bst2.126.net/assets/js/tabs.js?20140716214621": {},
+    "http://cpro.baidustatic.com/cpro/ui/noexpire/js/3.1.3/cpro.js": {
+        "etag": "\"536a1b96-474c\""
+    },
+    "http://pimg1.126.net/caipiao/js2/jquery-1.4.2.js?207297": {},
+    "http://image.bitautoimg.com/dealer/union/script/ads.js": {},
+    "http://yuedu.bst2.126.net/assets/js/tabs.js?20140717142621": {},
     "http://b.bst.126.net/pub/newIndex/bloghome/nts.js?v=002": {},
     "http://creatim.allyes.com.cn/td/AllyesDeliver.min.js": {},
-    "https://static.weibo.com/open/api/js/api/xd.js": {},
-    "http://a.tbcdn.cn/s/fdc/??spm.js,spmact.js?v=140619": {},
-    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/index.js?v=2516761719_465": {
-        "etag": "\"51887b85-1d1\""
-    },
-    "http://s.xnimg.cn/n/apps/photo/modules/seed/photoSeed.js?r=1405518550021": {},
-    "http://tieba.baidu.com/tb/static-common/component/commonLogic/common/common_default_merger.js?v=18.42": {},
-    "http://webmap0.map.bdimg.com/newmap/static/common/pkg/libs_7ed9cb7.js": {
-        "etag": "\"1504203515\""
+    "http://s0.m.hao123img.com/static/webapp/index/index_b9be45c.js": {},
+    "http://a.tbcdn.cn/s/kissy/gallery/??slide/1.2/index-min.js,offline/1.1/index-min.js?t=4974868714.js": {},
+    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/search.js": {},
+    "http://s.xnimg.cn/a36267/js/register/register-xn6207-v6.js": {},
+    "http://tb1.bdstatic.com/tb/_/magic_props_b265490.js": {},
+    "http://s1.map.bdimg.com/mobile/simple/static/common/pkg/common_sync_js_8_e790fde.js": {
+        "etag": "\"3071269008\""
     },
     "http://wapiknow.bdimg.com/static/common/pkg/stable_3868d9d.js": {
         "etag": "\"2770914733\""
     },
-    "http://baike.bdimg.com/static/common/lib/base_b0ae69b4.js": {
-        "etag": "\"56119085\""
+    "http://baike.bdimg.com/static/common/pkg/framework_f30a9566.js": {
+        "etag": "\"2903070497\""
     },
     "http://static.wenku.bdimg.com/static/common/pkg/pkg_lib_bb9477a2.js": {},
     "http://news.baidu.com/resource/js/usermonitor.js?v=1.1": {
         "etag": "\"9d6\""
     },
-    "http://vs8.bdstatic.com/static/video/webapp/js/main_0083c92.js": {
-        "etag": "\"4058436097\""
+    "http://mu4.bdstatic.com/static/j/J8K5z7gV.js": {
+        "etag": "\"2143830996\""
+    },
+    "http://vs3.bdstatic.com/pc_static/open/record/bdv-record-min.js?v=195220": {
+        "etag": "\"2330492282\""
     },
     "http://s0.qhimg.com/!d51918fb/switch.combo.js": {
         "etag": "\"534e4879-611\""
     },
     "http://js.sohu.com/pv/pvclick1211071116.js": {},
     "http://news.sohu.com/upload/2013/news182.js": {},
-    "http://y0.ifengimg.com/20140429/sta_collection.3.3.15.min.js": {},
-    "http://static.tianyaui.com/global/ty/stat/stat_20080313.js?v=20147&_=1405518567025": {},
-    "http://js.tudouui.com/v3/dist/js/lite_3.js": {},
-    "http://img1.126.net/channel4/html/baidu960100_0415.html": {},
-    "http://reg.163.com/js2/common.js?201405071000": {},
-    "http://pimg1.126.net/caipiao/js2/popularize/sportsQuick201309/main.js?v=206213": {},
-    "http://img2.126.net/ntesrich/auto/adbox/adbox-v1.1.2-120705.js": {},
-    "http://tjs.sjs.sinajs.cn/open/analytics/js/suda.js": {},
-    "http://js.t.sinajs.cn/open/api/js/api/client.js?version=20140506": {},
-    "http://a.tbcdn.cn/s/kissy/gallery/??slide/1.2/index-min.js,offline/1.1/index-min.js?t=4974868714.js": {},
-    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/lazy.js": {
-        "etag": "\"5178e095-9f\""
+    "http://y2.ifengimg.com/zhishaofei/js/20140317-hover.js": {},
+    "http://mopimg.cn/openjs/jquery-1.4.4.min.js": {
+        "etag": "\"4ce60c48-13309\""
     },
-    "http://s.xnimg.cn/a12023/jspro/beacon.js": {},
-    "http://tieba.baidu.com/tb/static-common/component/commonLogic/common/crosspage_msg_system/MsgSystem.js?v=18.42": {},
-    "http://webmap0.map.bdimg.com/newmap/static/common/pkg/initmap_1da69ba.js": {
-        "etag": "\"212353449\""
+    "http://static.tianyaui.com/global/ty/io/cookie.js?_v=20140612": {},
+    "http://js.tudouui.com/v3/dist/js/m_5.js": {},
+    "http://img2.126.net/ntesrich/auto/adbox/adbox-v1.1.2-120705.js": {},
+    "http://pimg1.126.net/caipiao/js2/liveCheck.js?207297": {},
+    "http://tjs.sjs.sinajs.cn/open/analytics/js/suda.js": {},
+    "http://s0.m.hao123img.com/static/common/lib/mod_8a29a7d.js": {},
+    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/index.js?v=2516761719_465": {
+        "etag": "\"51887b85-1d1\""
+    },
+    "http://s.xnimg.cn/n/apps/photo/modules/seed/photoSeed.js?r=1405578482463": {},
+    "http://tieba.baidu.com/tb/static-common/component/commonLogic/common/common_default_merger.js?v=18.42": {},
+    "http://s1.map.bdimg.com/mobile/simple/static/core/pkg/core-js_1dc59dc.js": {
+        "etag": "\"1057518898\""
     },
     "http://wapiknow.bdimg.com/static/common/pkg/common_qb_a3c3a53.js": {
         "etag": "\"3849118124\""
     },
-    "http://baike.bdimg.com/static/mobile/wiki/pkg/gmu_common_7a260e74.js": {
-        "etag": "\"1836830221\""
+    "http://baike.bdimg.com/static/common/lib/base_b0ae69b4.js": {
+        "etag": "\"56119085\""
     },
     "http://static.wenku.bdimg.com/static/common/lib/base_19226c46.js": {},
-    "http://news.baidu.com/resource/js/news_zp_console.js": {
-        "etag": "\"9c5\""
+    "http://wap.baidu.com/static/news/webapp/console/console_fd94d87.js": {
+        "etag": "\"1861197\""
     },
-    "http://vs9.bdstatic.com/static/video/webapp/js/common_63f94c1.js": {
-        "etag": "\"3253205903\""
+    "http://mu4.bdstatic.com/static/j/zo3xaiZT.js": {
+        "etag": "\"2940748752\""
     },
     "http://s4.qhimg.com/static/207ff1d8196d4070.js": {
         "etag": "\"534e4abb-c85\""
     },
     "http://news.sohu.com/upload/2013/js/device1_4.js": {},
-    "http://click.wrating.com/c3.js": {},
-    "http://img1.126.net/channel4/html/baidu300250m_0415.html": {},
-    "http://reg.163.com/js2/jquery-1.4.2-min.js?201207241140": {},
-    "http://pimg1.126.net/caipiao/js2/popularize/sportsQuick201309/bet.js?v=206213": {},
+    "http://y1.ifengimg.com/www/index_nav_search_v140312r1.js": {},
+    "http://static.tianyaui.com/global/ty/stat/stat_20080313.js?v=20147&_=1405578501424": {},
+    "http://js.tudouui.com/v3/dist/js/lite_3.js": {},
+    "http://l.bst.126.net/rsc/js/jquery-1.6.2.min.js": {},
+    "http://pimg1.126.net/caipiao/js2/popularize/sportsQuick201309/main.js?v=207297": {},
     "http://tjs.sjs.sinajs.cn/open/widget/js/widget/show.js?ver=d804de3d29281819": {},
-    "http://js.t.sinajs.cn/open/api/js/api/bundle.js?version=20140506": {},
-    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/slider.js": {
-        "etag": "\"5178e094-f0\""
+    "http://s0.hao123img.com/res/js/track.js?390438": {
+        "etag": "\"4294596640\""
     },
+    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/suggest.js": {
+        "etag": "\"5178e095-322\""
+    },
+    "http://s.xnimg.cn/a12023/jspro/beacon.js": {},
     "http://tieba.baidu.com/tb/static-common/component/commonLogic/common/user_message/UserMessage.js?v=18.42": {},
-    "http://webmap0.map.bdimg.com/newmap/static/common/fis_resource_map_1e37763.js": {
-        "etag": "\"1041828723\""
+    "http://webmap0.map.bdimg.com/newmap/static/common/pkg/libs_7ed9cb7.js": {
+        "etag": "\"1504203515\""
     },
-    "http://wapiknow.bdimg.com/static/common/lib/mod_4a8b07f.js": {
-        "etag": "\"1631212960\""
+    "http://wapiknow.bdimg.com/static/home/pkg/home_a20f931.js": {
+        "etag": "\"1866259872\""
     },
     "http://baike.bdimg.com/static/mobile/wiki/pkg/index_e6bfc229.js": {
         "etag": "\"1636390413\""
     },
     "http://static.wenku.bdimg.com/static/core/pkg/module_index_04506b8c.js": {},
-    "http://wap.baidu.com/static/news/webapp/console/console_fd94d87.js": {
-        "etag": "\"1861197\""
+    "http://m.baidu.com/static/news/webapp/common/js/common_rocket-aio_9349694.js": {
+        "etag": "\"1633239597\""
     },
-    "http://img.baidu.com/hunter/video.js?st=-16268": {
-        "etag": "\"762868669\""
+    "http://mu4.bdstatic.com/static/j/jNio6ger.js": {
+        "etag": "\"3100135192\""
     },
     "http://s8.qhimg.com/!a04eed30/monitor131227.js": {
         "etag": "\"534e487c-87c\""
     },
     "http://news.sohu.com/upload/2013/js/jCalendar.js": {},
-    "http://y1.ifengimg.com/p/login/20140312/index_main.js": {},
-    "http://img1.126.net/channel6/html/news_col7a.html": {},
-    "http://reg.163.com/js2/autoComplete.js?201405071000": {},
-    "http://pimg1.126.net/caipiao/js2/easyTools/scroll.js?1405518591802": {},
-    "http://yuedu.bst2.126.net/assets/js/jquery-1.6.1.min.js?20140716214621": {},
-    "http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=43259970": {},
-    "http://a.tbcdn.cn/apps/tmm/base/libs/seajs/1.2.0/sea.js?v=2504262289_10051": {},
-    "http://tb1.bdstatic.com/tb/_/interest_smiley_603ff169.js": {},
-    "http://webmap0.map.bdimg.com/newmap/static/common/js/libs/mod_17b3ce0.js": {
-        "etag": "\"3113796411\""
+    "http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0113/wrating.js": {},
+    "http://pimg1.126.net/caipiao/js2/popularize/sportsQuick201309/bet.js?v=207297": {},
+    "http://yuedu.bst2.126.net/assets/js/jquery-1.6.1.min.js?20140717142621": {},
+    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/lazy.js": {
+        "etag": "\"5178e095-9f\""
     },
-    "http://img.baidu.com/hunter/alog/element.min.js": {
-        "etag": "\"2511065917\""
+    "http://tieba.baidu.com/tb/static-common/component/commonLogic/common/crosspage_msg_system/MsgSystem.js?v=18.42": {},
+    "http://webmap0.map.bdimg.com/newmap/static/common/pkg/init-pkg_0a6e511.js": {
+        "etag": "\"2032696061\""
     },
-    "http://baike.bdimg.com/static/mobile/common/lib/base_08c0cd3d.js": {
-        "etag": "\"56215277\""
+    "http://baike.bdimg.com/static/mobile/wiki/pkg/gmu_common_7a260e74.js": {
+        "etag": "\"1836830221\""
     },
     "http://static.wenku.bdimg.com/static/core/ui/nsTypeMap/nsTypeMap_153ff067.js": {},
-    "http://m.baidu.com/static/news/webapp/common/js/common_rocket-aio_9349694.js": {
-        "etag": "\"1633239597\""
+    "http://m.baidu.com/static/news/webapp/common/js/common_lib-aio_57075cf.js": {
+        "etag": "\"1767656077\""
     },
-    "http://list.video.baidu.com/pc_static/open/suggestion/sug-quick-search-min.js?v=195211": {
-        "etag": "\"2825416371\""
+    "http://mu3.bdstatic.com/static/j/AmrP7NV9.js": {
+        "etag": "\"2135445386\""
     },
     "http://s0.qhimg.com/lib/qwrap/113.js": {
         "etag": "\"534e487c-4fc3\""
     },
     "http://sohu.wrating.com/a1.js": {},
-    "http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0113/wrating.js": {},
-    "http://img1.126.net/channel6/html/news_m6.html": {},
-    "http://reg.163.com/js2/jtip.js?201405071000": {},
-    "http://pimg1.126.net/caipiao/js2/jtip.js?1405518591802": {},
+    "http://t2.wrating.com/a1.js": {},
+    "http://pimg1.126.net/caipiao/js2/login.js?1405578514010": {},
     "http://js.t.sinajs.cn/STK/js/gaea_1_19.js?ver=d804de3d29281819": {},
-    "http://img.baidu.com/hunter/alog/alog.min.js": {
-        "etag": "\"1267227191\""
+    "http://a.tbcdn.cn/apps/tmm/s/hi/tmall/h5v2/js/slider.js": {
+        "etag": "\"5178e094-f0\""
     },
-    "http://s1.map.bdimg.com/mobile/simple/static/index/pkg/index_sync_js_0_f565373.js": {
-        "etag": "\"1873757050\""
+    "http://tb1.bdstatic.com/tb/_/image_exif_0bd01ba7.js": {},
+    "http://webmap0.map.bdimg.com/newmap/static/common/fis_resource_map_1e37763.js": {
+        "etag": "\"1041828723\""
     },
-    "http://img.baidu.com/hunter/alog.min.js": {
-        "etag": "\"1268317941\""
+    "http://baike.bdimg.com/static/mobile/common/lib/base_08c0cd3d.js": {
+        "etag": "\"56215277\""
     },
-    "http://baike.bdimg.com/static/index/index/index_797ecdf9.js": {
-        "etag": "\"51070477\""
-    },
-    "http://m.baidu.com/static/search/inapp/bdbox-prom.js?t=1405518554616": {
+    "http://m.baidu.com/static/search/inapp/bdbox-prom.js?t=1405578486798": {
         "etag": "\"1549\""
     },
-    "http://m.baidu.com/static/news/webapp/common/js/common_lib-aio_57075cf.js": {
-        "etag": "\"1767656077\""
-    },
-    "http://vs3.bdstatic.com/pc_static/open/record/bdv-record-min.js?v=195211": {
-        "etag": "\"2330492282\""
+    "http://static.tieba.baidu.com/tb/pms/wpo_ajax_pda.js?version=0.2": {},
+    "http://mu3.bdstatic.com/static/j/MwFd6GqC.js": {
+        "etag": "\"1249441434\""
     },
     "http://s0.qhimg.com/lib/jquery/171.js": {
         "etag": "\"52bc2064-8105\""
     },
     "http://js.sohu.com/wrating20120726.js": {},
-    "http://t2.wrating.com/a1.js": {},
-    "http://wmcdn.allyes.com/adxcm_base.htm": {},
-    "http://reg.163.com/js2/qrLogin.js?201405071000": {},
-    "http://pimg1.126.net/caipiao/js2/login.js?1405518591802": {},
-    "http://img.baidu.com/hunter/alog/alog.mobile.min.js": {
-        "etag": "\"4010399479\""
+    "http://y0.ifengimg.com/p/login/20130927/public_login.min.js": {},
+    "http://pimg1.126.net/caipiao/js2/easyTools/scroll.js?1405578514010": {},
+    "http://a.tbcdn.cn/apps/tmm/base/styles/component/slider/js/slider.js": {},
+    "http://tb1.bdstatic.com/tb/_/interest_smiley_603ff169.js": {},
+    "http://webmap0.map.bdimg.com/newmap/static/common/pkg/initmap_1da69ba.js": {
+        "etag": "\"212353449\""
     },
-    "http://img.baidu.com/hunter/m/zhidao.js?st=-16268": {
-        "etag": "\"3342357970\""
+    "http://baike.bdimg.com/static/index/index/index_797ecdf9.js": {
+        "etag": "\"51070477\""
+    },
+    "http://static.tieba.baidu.com/tb/pms/wpo.mpda.js?v=0.1": {},
+    "http://news.baidu.com/resource/js/jquery-1.8.3.min.js": {
+        "etag": "\"16dc5\""
+    },
+    "http://mu3.bdstatic.com/static/j/agPfl4vh.js": {
+        "etag": "\"466112400\""
+    },
+    "http://js.sohu.com/library/jquery-1.7.1.min.js": {},
+    "http://y0.ifengimg.com/ifeng/sources/121011-yingguang.js": {},
+    "http://pimg1.126.net/caipiao/js2/jtip.js?1405578514010": {},
+    "http://a.tbcdn.cn/apps/tmm/base/modules/lazyload/js/lazyload.js": {},
+    "http://tb1.bdstatic.com/tb/static-common/component/picture_rotation/picture_rotation.js": {},
+    "http://webmap0.map.bdimg.com/newmap/static/common/js/libs/mod_17b3ce0.js": {
+        "etag": "\"3113796411\""
     },
     "http://baike.bdimg.com/static/index/pkg/module_8ac76310.js": {
         "etag": "\"1635435213\""
     },
-    "http://img.baidu.com/hunter/wenkumonkey.min.js": {
-        "etag": "\"3749267775\""
-    },
-    "http://static.tieba.baidu.com/tb/pms/wpo_ajax_pda.js?version=0.2": {},
-    "http://js.sohu.com/library/jquery-1.7.1.min.js": {},
-    "http://y0.ifengimg.com/p/login/20130927/public_login.min.js": {},
-    "http://reg.163.com/js2/easyCore.js?201405071000": {},
-    "http://img1.126.net/channel6/html/sports_m3.html": {},
-    "http://tb1.bdstatic.com/tb/static-common/component/picture_rotation/picture_rotation.js": {},
-    "http://img.baidu.com/hunter/m/zhidao-mobilemonkey-20131209.js": {
-        "etag": "\"2721831349\""
-    },
-    "http://img.baidu.com/hunter/m/baike.js?st=-16268": {
-        "etag": "\"4097529933\""
-    },
-    "http://news.baidu.com/resource/js/jquery-1.8.3.min.js": {
-        "etag": "\"16dc5\""
-    },
-    "http://y0.ifengimg.com/ifeng/sources/121011-yingguang.js": {},
-    "http://reg.163.com/js2/placeholder.js?201405071000": {},
-    "http://img1.126.net/channel6/html/sports_col3.html": {},
-    "http://static.tieba.baidu.com/tb/pms/wpo_alog_speed.js": {},
-    "http://img.baidu.com/hunter/alog/monkey.min.js": {
-        "etag": "\"923391318\""
-    },
-    "http://img.baidu.com/hunter/monkey.baike.min.js": {
-        "etag": "\"2931739291\""
-    },
     "http://news.baidu.com/resource/js/hx_finance_local.js": {
         "etag": "\"b5c2\""
+    },
+    "http://mu8.bdstatic.com/player/t/j/c78630JU.js": {
+        "etag": "\"531352540\""
+    },
+    "http://y0.ifengimg.com/ifeng/sources/120817-quantone_window.js": {},
+    "http://pimg1.126.net/caipiao/js2/jquery-1.4.2.js?v=207297": {},
+    "http://a.tbcdn.cn/apps/tmm/base/libs/seajs/1.2.0/sea.js?v=2504262289_10051": {},
+    "http://s1.map.bdimg.com/mobile/simple/static/index/pkg/index_sync_js_0_f565373.js": {
+        "etag": "\"1873757050\""
+    },
+    "http://m.baidu.com/static/as/res2exe/js/res2exe_1.0.4.min.js": {
+        "etag": "\"1633475117\""
     },
     "http://y3.ifengimg.com/2011/08/12/18400132.js": {},
     "http://img2.126.net/ntesrich/auto/xt/xtbox-v1.2.9-130507.js": {}

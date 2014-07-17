@@ -23,7 +23,6 @@ exports.init = function(app) {
 
 	// 
 	var host = mApp.util.getSiteFromUrl(mPortalUrl);
-console.log(host);
 	mSite = mApp.site.create(host, PATH);
 
 	// 处理重定向

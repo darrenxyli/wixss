@@ -1,5 +1,5 @@
 in_dev="wlan0"
-out_dev="eth0"
+out_dev=""
 
 #
 # return ip of device
