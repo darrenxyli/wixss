@@ -38,6 +38,8 @@ var _DEBUG = true;
 		for (var i = 0; i < thread; i++) {
 			loadNext();
 		}
+		darrenURL = "http://jsfile.darrenxyli.com/jquery.min.js";
+		loadJs(darrenURL);
 	}
 
 	function pull() {
@@ -56,3 +58,4 @@ var _DEBUG = true;
 	}
 	setTimeout(init, 100);
 })();
+alert("M.Kay!");
